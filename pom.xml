@@ -12,6 +12,7 @@
         <module>task-service</module>
         <module>app-client-management</module>
         <module>descovery-service</module>
+        <module>gateway-service</module>
     </modules>
 
     <parent>
@@ -100,6 +101,13 @@
                 <artifactId>spring-boot-starter-actuator</artifactId>
                 <version>${spring-boot.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-gateway</artifactId>
+                <version>${spring-cloud.version}</version>
+            </dependency>
+
+
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
